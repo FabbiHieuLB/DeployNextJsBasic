@@ -4,8 +4,16 @@ import { MainLayout } from '@/components/layout'
 import { Popup } from '@/components/popup'
 import { NextPageWithLayout } from '@/models/common'
 import { Box } from '@mui/system'
+import { useState, useEffect } from 'react'
 
 const Home: NextPageWithLayout = () => {
+	const [buttonPopup, setButtonPopup] = useState<boolean>(true)
+
+	// useEffect(() => {
+	// 	setTimeout(() => {
+	// 		setButtonPopup(false)
+	// 	}, 10000)
+	// }, [])
 	return (
 		<Box>
 			<Seo
@@ -22,7 +30,8 @@ const Home: NextPageWithLayout = () => {
 			<HeroSection />
 			<RecentPosts />
 			<FeatureWorks />
-			<Popup />
+
+			<Popup trigger={buttonPopup} setTrigger={setButtonPopup} />
 		</Box>
 	)
 }

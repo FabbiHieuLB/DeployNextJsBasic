@@ -14,7 +14,6 @@ export function Popup() {
 				flexDirection: 'row',
 				alignItems: 'center',
 				justifyContent: 'space-between',
-				backgroundColor: '#ccc',
 				width: '40%',
 				padding: '10px',
 			}}
