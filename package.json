@@ -20,10 +20,13 @@
     "cookies": "^0.8.0",
     "date-fns": "^2.28.0",
     "gray-matter": "^4.0.3",
+    "html2canvas": "^1.4.1",
     "http-proxy": "^1.18.1",
     "next": "11.1.2",
     "react": "17.0.2",
+    "react-base64": "^1.2.0",
     "react-dom": "17.0.2",
+    "react-player": "^2.11.1",
     "rehype-autolink-headings": "^6.1.1",
     "rehype-document": "^6.0.1",
     "rehype-format": "^4.0.1",
@@ -34,7 +37,8 @@
     "remark-rehype": "^10.1.0",
     "remark-toc": "^8.0.1",
     "swr": "^1.0.1",
-    "unified": "^10.1.2"
+    "unified": "^10.1.2",
+    "video-snapshot": "^1.0.11"
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",

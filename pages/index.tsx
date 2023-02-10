@@ -2,6 +2,7 @@ import { Seo } from '@/components/common'
 import { HeroSection, RecentPosts, FeatureWorks } from '@/components/home'
 import { MainLayout } from '@/components/layout'
 import { Popup } from '@/components/popup'
+import SnapShotVideo from '@/components/snapshot/SnapShotVideo'
 import { NextPageWithLayout } from '@/models/common'
 import { Box } from '@mui/system'
 import { useState, useEffect } from 'react'
@@ -31,7 +32,8 @@ const Home: NextPageWithLayout = () => {
 			<RecentPosts />
 			<FeatureWorks />
 
-			<Popup trigger={buttonPopup} setTrigger={setButtonPopup} />
+			{/* <Popup trigger={buttonPopup} setTrigger={setButtonPopup} /> */}
+			<SnapShotVideo />
 		</Box>
 	)
 }

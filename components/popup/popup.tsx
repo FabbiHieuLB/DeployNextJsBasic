@@ -14,8 +14,9 @@ export function Popup() {
 				flexDirection: 'row',
 				alignItems: 'center',
 				justifyContent: 'space-between',
-				width: '40%',
 				padding: '10px',
+				animation: '1s',
+				animationDuration: '5s',
 			}}
 		>
 			<Box>
